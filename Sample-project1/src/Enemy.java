@@ -12,7 +12,7 @@ public class Enemy extends Sprite {
 	
 	public void update(Input input, int delta) {
 		t += delta;
-		if (delay>t) {
+		if (delay<t) {
 			enemyBehaviour(delta);
 		}
 	}
