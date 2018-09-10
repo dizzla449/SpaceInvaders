@@ -51,6 +51,7 @@ public class App extends BasicGame {
     public void render(GameContainer gc, Graphics g)
     		throws SlickException {
     	world.render();
+    	g.drawString("Score: "+Player.getInstance().getScore() , 20, 738);
     }
 
     /** Start-up method. Creates the game and runs it.

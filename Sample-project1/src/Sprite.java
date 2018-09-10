@@ -59,6 +59,7 @@ public class Sprite {
 
 	public float getX() { return x; }
 	public float getY() { return y; }
+	public void setX(float x) { this.x = x;}
 	public boolean getActive() { return active; }
 	public void deactivate() { active = false; }
 	
